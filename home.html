@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TripBee - Experience Travel Like Never Before</title>
+  <meta name="description" content="TripBee - Your gateway to adventure. Discover curated travel experiences across the globe.">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .hero-home { min-height: 100vh; }
+    .hero-home .hero-bg { background-image: url('home/2.png'); }
+    .hero-search {
+      background: #fff; border-radius: 40px;
+      display: flex; align-items: center;
+      padding: 6px 6px 6px 20px; gap: 10px;
+      min-width: 340px; box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    }
+    .hero-search input {
+      border: none; outline: none; flex: 1;
+      font-size: 0.85rem; font-family: 'Poppins', sans-serif;
+      color: #555; background: transparent;
+    }
+    .hero-search button {
+      background: var(--purple); color: #fff; border: none;
+      border-radius: 30px; padding: 10px 22px;
+      font-size: 0.82rem; font-weight: 600; cursor: pointer;
+      font-family: 'Poppins', sans-serif;
+    }
+    .tours-bg { background: var(--light); }
+    .popular-bg { background: var(--light); }
+  </style>
+</head>
+<body>
+
+  <!-- ═══ NAVIGATION ═══ -->
+  <nav class="navbar">
+    <a href="home.html" class="nav-logo">Trip<span>Bee</span></a>
+    <div class="nav-links">
+      <a href="home.html" class="active">Home</a>
+      <a href="aboutUs.html">About Us</a>
+      <a href="blog.html">Destinations</a>
+      <a href="blog.html">Blog</a>
+      <a href="#contact" class="nav-cta">Contact Us</a>
+    </div>
+  </nav>
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero hero-home">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Experience Travel Like<br>Never Before</h1>
+      <p class="hero-sub">Discover handpicked destinations, curated itineraries, and unforgettable experiences tailored just for you.</p>
+      <div class="hero-search">
+        <i class="hgi-stroke hgi-search-01" style="color:#aaa;font-size:1.1rem;"></i>
+        <input type="text" placeholder="Search destinations...">
+        <button>Explore</button>
+      </div>
+      <div class="hero-social">
+        <a href="#"><i class="hgi-stroke hgi-facebook-01"></i></a>
+        <a href="#"><i class="hgi-stroke hgi-instagram"></i></a>
+        <a href="#"><i class="hgi-stroke hgi-new-twitter"></i></a>
+        <a href="#"><i class="hgi-stroke hgi-linkedin-01"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ GATEWAY / ABOUT ═══ -->
+  <section>
+    <div class="gateway">
+      <div class="gateway-text">
+        <h2><span>TripBee:</span> Your Gateway To<br>Adventure</h2>
+        <p>We craft unforgettable travel experiences that combine authentic cultural immersion with breathtaking natural wonders. From curated tour packages and expert-led excursions to bespoke itineraries tailored to your unique preferences, TripBee is your trusted companion for exploring the world's most captivating destinations.</p>
+        <div class="gateway-stats">
+          <div class="stat-item">
+            <div class="stat-num">10,000<span>+</span></div>
+            <div class="stat-label">Satisfied Travelers</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">500<span>+</span></div>
+            <div class="stat-label">Destinations</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">150<span>+</span></div>
+            <div class="stat-label">Expert Guides</div>
+          </div>
+        </div>
+      </div>
+      <div class="gateway-images">
+        <img src="home/3.png" alt="Mountain lake landscape">
+        <img src="home/4.png" alt="Indian temple">
+        <img src="home/5.png" alt="Travel adventure">
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ DIVERSE TOUR OPTIONS ═══ -->
+  <section class="tours-bg">
+    <div class="section-header">
+      <h2 class="section-title">Diverse Tour Options</h2>
+      <p class="section-subtitle">Explore our wide range of curated tours designed to match every traveler's dream, from serene beach getaways to thrilling mountain expeditions.</p>
+    </div>
+    <div class="tour-nav">
+      <button><i class="hgi-stroke hgi-arrow-left-01"></i></button>
+      <button class="active">●</button>
+      <button>●</button>
+      <button>●</button>
+      <button><i class="hgi-stroke hgi-arrow-right-01"></i></button>
+    </div>
+    <div class="tour-grid">
+      <div class="tour-card">
+        <img src="home/6.png" alt="Bali">
+        <div class="tour-overlay">
+          <span class="tour-flag">🇮🇩 Indonesia</span>
+          <span class="tour-name">Bali</span>
+          <button class="tour-btn">Book Now</button>
+        </div>
+      </div>
+      <div class="tour-card">
+        <img src="home/7.png" alt="Santorini">
+        <div class="tour-overlay">
+          <span class="tour-flag">🇬🇷 Greece</span>
+          <span class="tour-name">Santorini</span>
+          <button class="tour-btn">Book Now</button>
+        </div>
+      </div>
+      <div class="tour-card">
+        <img src="home/8.png" alt="Paris">
+        <div class="tour-overlay">
+          <span class="tour-flag">🇫🇷 France</span>
+          <span class="tour-name">Paris</span>
+          <button class="tour-btn">Book Now</button>
+        </div>
+      </div>
+      <div class="tour-card">
+        <img src="home/9.png" alt="Udaipur">
+        <div class="tour-overlay">
+          <span class="tour-flag">🇮🇳 India</span>
+          <span class="tour-name">Udaipur</span>
+          <button class="tour-btn">Book Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ WHY CHOOSE TRIPBEE ═══ -->
+  <section>
+    <div class="why-section">
+      <div class="why-image">
+        <img src="home/10.png" alt="Mountain sunset">
+      </div>
+      <div class="why-right">
+        <h2>Why Choose <span>TripBee</span>?</h2>
+        <div class="why-grid">
+          <div class="why-item">
+            <div class="why-icon"><i class="hgi-stroke hgi-route-01"></i></div>
+            <h4>Personalized Itineraries</h4>
+            <p>Tailored travel plans designed to match your interests, budget, and travel style perfectly.</p>
+          </div>
+          <div class="why-item">
+            <div class="why-icon"><i class="hgi-stroke hgi-compass"></i></div>
+            <h4>Expert Guides</h4>
+            <p>Knowledgeable local guides who bring every destination to life with authentic insights.</p>
+          </div>
+          <div class="why-item">
+            <div class="why-icon"><i class="hgi-stroke hgi-headphones"></i></div>
+            <h4>24/7 Support</h4>
+            <p>Round-the-clock assistance ensuring you're never alone on your journey.</p>
+          </div>
+          <div class="why-item">
+            <div class="why-icon"><i class="hgi-stroke hgi-diamond-01"></i></div>
+            <h4>Best Value</h4>
+            <p>Premium experiences at competitive prices, delivering exceptional value for every trip.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ POPULAR TOURS ═══ -->
+  <section class="popular-bg">
+    <div class="section-header">
+      <h2 class="section-title">Popular Tours</h2>
+      <p class="section-subtitle">Discover the most loved destinations by our travelers worldwide.</p>
+    </div>
+    <div class="popular-grid">
+      <div class="popular-card">
+        <img src="home/11.png" alt="Paris, France">
+        <div class="popular-info">
+          <div>
+            <div class="popular-name">Paris, France</div>
+            <div class="popular-meta"><i class="hgi-stroke hgi-star" style="color:#f59e0b;font-size:0.72rem;"></i> 4.8 · 5 Days 4 Nights</div>
+          </div>
+          <div class="popular-price">
+            <span class="from">From</span>
+            <div class="amount">$1,200</div>
+          </div>
+        </div>
+      </div>
+      <div class="popular-card">
+        <img src="home/12.png" alt="Kyoto, Japan">
+        <div class="popular-info">
+          <div>
+            <div class="popular-name">Kyoto, Japan</div>
+            <div class="popular-meta"><i class="hgi-stroke hgi-star" style="color:#f59e0b;font-size:0.72rem;"></i> 4.9 · 7 Days 6 Nights</div>
+          </div>
+          <div class="popular-price">
+            <span class="from">From</span>
+            <div class="amount">$1,800</div>
+          </div>
+        </div>
+      </div>
+      <div class="popular-card">
+        <img src="home/13.png" alt="Sydney, Australia">
+        <div class="popular-info">
+          <div>
+            <div class="popular-name">Sydney, Australia</div>
+            <div class="popular-meta"><i class="hgi-stroke hgi-star" style="color:#f59e0b;font-size:0.72rem;"></i> 4.7 · 6 Days 5 Nights</div>
+          </div>
+          <div class="popular-price">
+            <span class="from">From</span>
+            <div class="amount">$2,100</div>
+          </div>
+        </div>
+      </div>
+      <div class="popular-card">
+        <img src="home/14.png" alt="New York, US">
+        <div class="popular-info">
+          <div>
+            <div class="popular-name">New York, US</div>
+            <div class="popular-meta"><i class="hgi-stroke hgi-star" style="color:#f59e0b;font-size:0.72rem;"></i> 4.6 · 4 Days 3 Nights</div>
+          </div>
+          <div class="popular-price">
+            <span class="from">From</span>
+            <div class="amount">$1,500</div>
+          </div>
+        </div>
+      </div>
+      <div class="popular-card">
+        <img src="home/19.png" alt="Barcelona, Spain">
+        <div class="popular-info">
+          <div>
+            <div class="popular-name">Barcelona, Spain</div>
+            <div class="popular-meta"><i class="hgi-stroke hgi-star" style="color:#f59e0b;font-size:0.72rem;"></i> 4.8 · 5 Days 4 Nights</div>
+          </div>
+          <div class="popular-price">
+            <span class="from">From</span>
+            <div class="amount">$1,100</div>
+          </div>
+        </div>
+      </div>
+      <div class="popular-card">
+        <img src="home/6d721080189c34129e373d8b62696940aa244976.png" alt="Bali, Indonesia">
+        <div class="popular-info">
+          <div>
+            <div class="popular-name">Bali, Indonesia</div>
+            <div class="popular-meta"><i class="hgi-stroke hgi-star" style="color:#f59e0b;font-size:0.72rem;"></i> 4.9 · 6 Days 5 Nights</div>
+          </div>
+          <div class="popular-price">
+            <span class="from">From</span>
+            <div class="amount">$950</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ EXPERT TRAVEL TEAM ═══ -->
+  <section class="team-section">
+    <div class="section-header">
+      <h2 class="section-title">Our Expert Travel Team</h2>
+      <p class="section-subtitle">Dedicated travel professionals, making every journey extraordinary with their expertise and passion for travel.</p>
+    </div>
+    <div class="team-grid">
+      <div class="team-card">
+        <img src="home/15.png" alt="Gabriel Montana">
+        <div class="team-overlay">
+          <div class="team-name">Gabriel Montana</div>
+          <div class="team-role">Lead Travel Expert</div>
+        </div>
+      </div>
+      <div class="team-card">
+        <img src="home/16.png" alt="Julie Maria">
+        <div class="team-overlay">
+          <div class="team-name">Julie Maria</div>
+          <div class="team-role">Destination Specialist</div>
+        </div>
+      </div>
+      <div class="team-card">
+        <img src="home/17.png" alt="Joseph Roy">
+        <div class="team-overlay">
+          <div class="team-name">Joseph Roy</div>
+          <div class="team-role">Adventure Coordinator</div>
+        </div>
+      </div>
+      <div class="team-card">
+        <img src="home/18.png" alt="Elon Musk">
+        <div class="team-overlay">
+          <div class="team-name">Elon Musk</div>
+          <div class="team-role">Chief Travel Officer</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CTA BANNER ═══ -->
+  <section class="cta-banner">
+    <h2>Ready To Embark On Your Next Adventure With Us?</h2>
+    <p>Start planning your dream vacation today with our expert team.</p>
+    <button class="btn-ghost-white">Book Your Trip Now <i class="hgi-stroke hgi-arrow-right-01"></i></button>
+  </section>
+
+  <!-- ═══ FAQ & CONTACT ═══ -->
+  <section class="faq-section" id="contact">
+    <h2>Got questions?</h2>
+    <p>We're here to help! Find answers to the most commonly asked questions about our travel services.</p>
+    <div class="faq-wrapper">
+      <div class="faq-list">
+        <div class="faq-item open">
+          <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+            <span>What destinations do you offer?</span>
+            <span class="icon">+</span>
+          </div>
+          <div class="faq-a">We offer over 500 destinations across 6 continents, from tropical beach paradises to historic European cities and remote mountain retreats.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+            <span>How do I book a tour?</span>
+            <span class="icon">+</span>
+          </div>
+          <div class="faq-a">Simply browse our tour options, select your preferred package, and complete the booking through our secure online platform. Our team will confirm your reservation within 24 hours.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+            <span>What is your cancellation policy?</span>
+            <span class="icon">+</span>
+          </div>
+          <div class="faq-a">You can cancel up to 30 days before your trip for a full refund. Cancellations within 30 days may be subject to a partial fee depending on the package.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+            <span>Do you offer group discounts?</span>
+            <span class="icon">+</span>
+          </div>
+          <div class="faq-a">Yes! We offer special group rates for parties of 6 or more. Contact our team for a personalized quote.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+            <span>Are flights included in the packages?</span>
+            <span class="icon">+</span>
+          </div>
+          <div class="faq-a">Some packages include flights while others are land-only. Each tour listing clearly indicates what's included in the price.</div>
+        </div>
+      </div>
+      <div class="contact-box">
+        <h4>Send Us a Message</h4>
+        <div class="form-row">
+          <input type="text" placeholder="Your Name">
+          <input type="email" placeholder="Email Address">
+        </div>
+        <div class="form-row">
+          <input type="tel" placeholder="Phone Number">
+          <input type="text" placeholder="Subject">
+        </div>
+        <textarea placeholder="Your Message"></textarea>
+        <button class="contact-submit"><i class="hgi-stroke hgi-mail-01"></i> Send Message</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ NEWSLETTER ═══ -->
+  <section class="newsletter">
+    <div class="newsletter-text">
+      <h2>Stay Updated With The Latest Travel News, Tips, And Exclusive Offers</h2>
+    </div>
+    <div class="newsletter-right">
+      <p>Get Full Newsletter Product</p>
+      <div class="newsletter-form">
+        <input type="email" placeholder="Enter your email address">
+        <button>Subscribe</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">Trip<span>Bee</span></div>
+        <p class="footer-desc">We create extraordinary travel experiences by combining authentic culture, breathtaking destinations, and expert local knowledge.</p>
+      </div>
+      <div class="footer-col">
+        <h5>About us</h5>
+        <ul>
+          <li><a href="aboutUs.html">Our Story</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Partnerships</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Support</h5>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Safety</a></li>
+          <li><a href="#">Cancellation</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+          <li><a href="#">Disclaimer</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Follow us</h5>
+        <div class="footer-social">
+          <a href="#"><i class="hgi-stroke hgi-facebook-01"></i></a>
+          <a href="#"><i class="hgi-stroke hgi-instagram"></i></a>
+          <a href="#"><i class="hgi-stroke hgi-new-twitter"></i></a>
+          <a href="#"><i class="hgi-stroke hgi-linkedin-01"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2024 TripBee. All rights reserved.</div>
+  </footer>
+
+</body>
+</html>
